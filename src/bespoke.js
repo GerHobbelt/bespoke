@@ -4,6 +4,7 @@
 				slides = [].slice.call(parent.children, 0),
 				activeSlide = slides[0],
 				deckListeners = {},
+				disableKeypress = true,
 
 				activate = function(index, customData) {
 					if (!slides[index]) {
@@ -63,7 +64,8 @@
 					next: next,
 					prev: prev,
 					parent: parent,
-					slides: slides
+					slides: slides,
+					disableKeypress: disableKeypress
 				};
 
 			addClass(parent, 'parent');
@@ -139,19 +141,21 @@
 					delta;
 
 				document.addEventListener('keydown', function(e) {
-					var key = e.which;
+					if (!deck.disableKeypress) {
+						var key = e.which;
 
-					(
-						key === 34 || // PAGE DOWN
-						key === 32 || // SPACE
-						axis === 'X' && key === 39 || // RIGHT
-						axis === 'Y' && key === 40 // BOTTOM
-					) && deck.next();
-					(
-						key === 33 || // PAGE UP
-						axis === 'X' && key === 37 || // LEFT
-						axis === 'Y' && key === 38 // TOP
-					) && deck.prev();
+						(
+							key === 34 || // PAGE DOWN
+							key === 32 || // SPACE
+							axis === 'X' && key === 39 || // RIGHT
+							axis === 'Y' && key === 40 // BOTTOM
+						) && deck.next();
+						(
+							key === 33 || // PAGE UP
+							axis === 'X' && key === 37 || // LEFT
+							axis === 'Y' && key === 38 // TOP
+						) && deck.prev();
+					}
 				});
 
 				deck.parent.addEventListener('touchstart', function(e) {

@@ -3,10 +3,7 @@
   "title": "Bespoke.js",
   "version": "0.2.2",
   "description": "DIY Presentation Micro-Framework",
-  "author": {
-    "name": "Mark Dalgleish",
-    "url": "http://markdalgleish.com"
-  },
+  "author": "Mark Dalgleish (http://markdalgleish.com)",
   "engines": {
     "node": ">= 0.8.0"
   },
@@ -39,5 +36,10 @@
     "html5",
     "keynote",
     "powerpoint"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/markdalgleish/bespoke.js/issues"
+  },
+  "main": "Gruntfile.js",
+  "license": "BSD"
 }
