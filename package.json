@@ -1,7 +1,7 @@
 {
   "name": "bespoke",
   "title": "Bespoke.js",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "DIY Presentation Micro-Framework",
   "author": "Mark Dalgleish (http://markdalgleish.com)",
   "engines": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/markdalgleish/bespoke.js.git"
+    "url": "git:github.com/chris-mccabe1988/bespoke.js.git"
   },
   "devDependencies": {
     "grunt": "~0.4.1",
