@@ -1,0 +1,93 @@
+[submodule "plugins/markdown"]
+	path = plugins/markdown
+	url = git@github.com:GerHobbelt/bespoke-markdown.git
+[submodule "plugins/keys"]
+	path = plugins/keys
+	url = git@github.com:GerHobbelt/bespoke-keys.git
+[submodule "plugins/touch"]
+	path = plugins/touch
+	url = git@github.com:GerHobbelt/bespoke-touch.git
+[submodule "plugins/classes"]
+	path = plugins/classes
+	url = git@github.com:GerHobbelt/bespoke-classes.git
+[submodule "plugins/bullets"]
+	path = plugins/bullets
+	url = git@github.com:GerHobbelt/bespoke-bullets.git
+[submodule "plugins/scale"]
+	path = plugins/scale
+	url = git@github.com:GerHobbelt/bespoke-scale.git
+[submodule "plugins/hash"]
+	path = plugins/hash
+	url = git@github.com:GerHobbelt/bespoke-hash.git
+[submodule "plugins/backdrop"]
+	path = plugins/backdrop
+	url = git@github.com:GerHobbelt/bespoke-backdrop.git
+[submodule "plugins/state"]
+	path = plugins/state
+	url = git@github.com:GerHobbelt/bespoke-state.git
+[submodule "plugins/progress"]
+	path = plugins/progress
+	url = git@github.com:GerHobbelt/bespoke-progress.git
+[submodule "plugins/forms"]
+	path = plugins/forms
+	url = git@github.com:GerHobbelt/bespoke-forms.git
+[submodule "plugins/loop"]
+	path = plugins/loop
+	url = git@github.com:GerHobbelt/bespoke-loop.git
+[submodule "plugins/vcr"]
+	path = plugins/vcr
+	url = git@github.com:GerHobbelt/bespoke-vcr.git
+[submodule "plugins/math"]
+	path = plugins/math
+	url = git@github.com:GerHobbelt/bespoke-math.git
+[submodule "plugins/multimedia"]
+	path = plugins/multimedia
+	url = git@github.com:GerHobbelt/bespoke-multimedia.git
+[submodule "plugins/simple-overview"]
+	path = plugins/simple-overview
+	url = git@github.com:GerHobbelt/bespoke-simple-overview.git
+[submodule "plugins/qrcode"]
+	path = plugins/qrcode
+	url = git@github.com:GerHobbelt/bespoke-qrcode.git
+[submodule "plugins/substeps"]
+	path = plugins/substeps
+	url = git@github.com:GerHobbelt/bespoke-substeps.git
+[submodule "plugins/title"]
+	path = plugins/title
+	url = git@github.com:GerHobbelt/bespoke-title.git
+[submodule "plugins/notes"]
+	path = plugins/notes
+	url = git@github.com:GerHobbelt/bespoke-notes.git
+[submodule "plugins/history"]
+	path = plugins/history
+	url = git@github.com:GerHobbelt/bespoke-history.git
+[submodule "plugins/sync"]
+	path = plugins/sync
+	url = git@github.com:GerHobbelt/bespoke-sync.git
+[submodule "plugins/hide"]
+	path = plugins/hide
+	url = git@github.com:GerHobbelt/bespoke-hide.git
+[submodule "plugins/fx"]
+	path = plugins/fx
+	url = git@github.com:GerHobbelt/bespoke-fx.git
+[submodule "plugins/fullscreen"]
+	path = plugins/fullscreen
+	url = git@github.com:GerHobbelt/bespoke-fullscreen.git
+[submodule "plugins/cursor"]
+	path = plugins/cursor
+	url = git@github.com:GerHobbelt/bespoke-cursor.git
+[submodule "plugins/blackout"]
+	path = plugins/blackout
+	url = git@github.com:GerHobbelt/bespoke-blackout.git
+[submodule "themes/fancy"]
+	path = themes/fancy
+	url = git@github.com:GerHobbelt/bespoke-theme-fancy.git
+[submodule "themes/build-wars"]
+	path = themes/build-wars
+	url = git@github.com:GerHobbelt/bespoke-theme-build-wars.git
+[submodule "plugins/overview"]
+	path = plugins/overview
+	url = git@github.com:GerHobbelt/bespoke-overview.git
+[submodule "plugins/advanced"]
+	path = plugins/advanced
+	url = git@github.com:GerHobbelt/bespoke-advanced.git
